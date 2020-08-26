@@ -1,0 +1,43 @@
+class Movies{
+    String movieName;
+    String firstName;
+    String lastName;
+    String year;
+    //String gender;
+    Movies(String movieName,String year, String firstName,String lastName){
+        this.movieName=movieName;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.year=year;
+
+    }
+    void setM(String movieName){
+        this.movieName=movieName;
+    }
+    void setY(String year){
+        this.year=year;
+    }
+    void setF(String firstName){
+        this.firstName=firstName;
+    }
+    void setL(String lastName){
+        this.lastName=lastName;
+    }
+
+
+    String getM(){
+        return movieName;
+    }
+    String getY(){
+        return year;
+    }
+    String getF(){
+        return firstName;
+    }
+    String getL(){
+        return lastName;
+    }
+
+
+
+}

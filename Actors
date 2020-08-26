@@ -1,0 +1,38 @@
+class Actors{
+    String firstName;
+    String lastName;
+    String year;
+    String gender;
+    Actors(String firstName,String lastName,String year,String gender){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.year=year;
+        this.gender=gender;
+
+    }
+    void setF(String firstName){
+        firstName=firstName;
+    }
+    void setL(String lastName){
+        lastName=lastName;
+    }
+    void setY(String year){
+        year=year;
+    }
+    void setG(String gender){
+        gender=gender;
+    }
+    String getF(){
+        return firstName;
+    }
+    String getL(){
+        return lastName;
+    }
+    String getY(){
+        return year;
+    }
+    String getG(){
+        return gender;
+    }
+
+}
