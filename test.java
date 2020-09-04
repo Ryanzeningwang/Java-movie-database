@@ -42,9 +42,10 @@ public class test{
                     gender=storage[3];
                     Actors actor=new Actors(firstName,lastName,year,gender);
                     list1.add(actor);
+                    System.out.println("actor added");
                 }catch(ArrayIndexOutOfBoundsException o){
                     o.printStackTrace();
-                    System.out.println("222");
+                    //System.out.println("222");
 
                 }
 
@@ -67,14 +68,14 @@ public class test{
                     lastName=storage2[2];
                     Movies movie=new Movies(movieName,movieYear,firstName,lastName);
                     list2.add(movie);
-
+                    System.out.println("movies added");
 
 
 
             }
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("123");
+            //System.out.println("123");
         }
     }
 }
